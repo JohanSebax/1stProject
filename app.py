@@ -36,8 +36,6 @@ def toss_coin(n): # función que emula el lanzamiento de una moneda
 
     return mean
   
-start_button = st.button('Ejecutar')
-
 if start_button:
     st.write(f'Experimento con {number_of_trials} intentos en curso.')
 
